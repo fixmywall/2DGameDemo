@@ -1,0 +1,1594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="2DGameDemo" targetName="2DGameDemo" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="88294c3c-d62a-480b-b75a-f86cae3590bf" name="Default" comment="Initial commit">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/2DGameDemo.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AbstractGameState.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AbstractGameState.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AbstractUnit.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AbstractUnit.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/GameEngine.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/GameEngine.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MobileUnit.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MobileUnit.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PlayableGameState.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PlayableGameState.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Player.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Player.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Headers" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Resources" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/SFML" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Audio.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Audio/AlResource.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Audio/Export.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Audio/InputSoundFile.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Audio/Listener.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Audio/Music.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Audio/OutputSoundFile.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Audio/Sound.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Audio/SoundBuffer.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Audio/SoundBufferRecorder.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Audio/SoundFileFactory.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Audio/SoundFileFactory.inl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Audio/SoundFileReader.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Audio/SoundFileWriter.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Audio/SoundRecorder.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Audio/SoundSource.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Audio/SoundStream.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Config.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/BlendMode.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/CircleShape.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/Color.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/ConvexShape.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/Drawable.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/Export.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/Font.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/Glsl.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/Glsl.inl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/Glyph.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/Image.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/PrimitiveType.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/Rect.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/Rect.inl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/RectangleShape.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/RenderStates.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/RenderTarget.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/RenderTexture.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/RenderWindow.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/Shader.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/Shape.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/Sprite.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/Text.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/Texture.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/Transform.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/Transformable.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/Vertex.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/VertexArray.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Graphics/View.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Main.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Network.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Network/Export.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Network/Ftp.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Network/Http.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Network/IpAddress.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Network/Packet.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Network/Socket.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Network/SocketHandle.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Network/SocketSelector.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Network/TcpListener.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Network/TcpSocket.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Network/UdpSocket.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/OpenGL.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/System.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/System/Clock.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/System/Err.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/System/Export.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/System/FileInputStream.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/System/InputStream.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/System/Lock.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/System/MemoryInputStream.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/System/Mutex.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/System/NativeActivity.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/System/NonCopyable.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/System/Sleep.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/System/String.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/System/String.inl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/System/Thread.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/System/Thread.inl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/System/ThreadLocal.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/System/ThreadLocalPtr.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/System/ThreadLocalPtr.inl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/System/Time.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/System/Utf.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/System/Utf.inl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/System/Vector2.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/System/Vector2.inl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/System/Vector3.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/System/Vector3.inl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Window.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Window/Context.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Window/ContextSettings.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Window/Event.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Window/Export.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Window/GlResource.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Window/Joystick.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Window/Keyboard.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Window/Mouse.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Window/Sensor.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Window/Touch.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Window/VideoMode.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Window/Window.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Window/WindowHandle.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Headers/Window/WindowStyle.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/Resources/Info.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/2.4.2/SFML" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/SFML.framework/Versions/Current" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/sfml-audio.framework/Resources" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/sfml-audio.framework/Versions/2.4.2/Resources/Info.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/sfml-audio.framework/Versions/2.4.2/sfml-audio" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/sfml-audio.framework/Versions/Current" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/sfml-audio.framework/sfml-audio" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/sfml-graphics.framework/Resources" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/sfml-graphics.framework/Versions/2.4.2/Resources/Info.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/sfml-graphics.framework/Versions/2.4.2/sfml-graphics" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/sfml-graphics.framework/Versions/Current" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/sfml-graphics.framework/sfml-graphics" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/sfml-network.framework/Resources" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/sfml-network.framework/Versions/2.4.2/Resources/Info.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/sfml-network.framework/Versions/2.4.2/sfml-network" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/sfml-network.framework/Versions/Current" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/sfml-network.framework/sfml-network" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/sfml-system.framework/Resources" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/sfml-system.framework/Versions/2.4.2/Resources/Info.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/sfml-system.framework/Versions/2.4.2/sfml-system" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/sfml-system.framework/Versions/Current" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/sfml-system.framework/sfml-system" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/sfml-window.framework/Resources" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/sfml-window.framework/Versions/2.4.2/Resources/Info.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/sfml-window.framework/Versions/2.4.2/sfml-window" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/sfml-window.framework/Versions/Current" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/Frameworks/sfml-window.framework/sfml-window" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/changelog.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/cmake/Modules/FindSFML.cmake" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/AlResource_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Audio_2Export_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Audio_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/BlendMode_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/CircleShape_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Clock_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Color_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Config_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/ContextSettings_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Context_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/ConvexShape_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Drawable_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Err_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Event_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/FileInputStream_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Font_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Ftp_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/GlResource_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Glsl_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Glyph_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Graphics_2Export_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Graphics_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Http_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Image_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/InputSoundFile_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/InputStream_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/IpAddress_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Joystick_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Keyboard_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Listener_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Lock_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Main_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/MemoryInputStream_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Mouse_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Music_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Mutex_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/NativeActivity_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Network_2Export_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Network_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/NonCopyable_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/OpenGL_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/OutputSoundFile_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Packet_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/PrimitiveType_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Rect_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/RectangleShape_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/RenderStates_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/RenderTarget_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/RenderTexture_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/RenderWindow_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Sensor_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Shader_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Shape_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Sleep_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/SocketHandle_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/SocketSelector_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Socket_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/SoundBufferRecorder_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/SoundBuffer_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/SoundFileFactory_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/SoundFileReader_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/SoundFileWriter_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/SoundRecorder_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/SoundSource_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/SoundStream_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Sound_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Sprite_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/String_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/System_2Export_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/System_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/TcpListener_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/TcpSocket_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Text_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Texture_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/ThreadLocalPtr_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/ThreadLocal_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Thread_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Time_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Touch_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Transform_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Transformable_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/UdpSocket_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Utf_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Vector2_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Vector3_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/VertexArray_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Vertex_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/VideoMode_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/View_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/WindowHandle_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/WindowStyle_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Window_2Export_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Window_2Window_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/Window_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/annotated.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/bc_s.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/bdwn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1AlResource-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1AlResource.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1AlResource.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1CircleShape-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1CircleShape.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1CircleShape.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Clock-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Clock.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Color-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Color.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Context-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Context.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Context.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1ConvexShape-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1ConvexShape.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1ConvexShape.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Drawable-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Drawable.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Drawable.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Event-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Event.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1FileInputStream-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1FileInputStream.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1FileInputStream.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Font-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Font.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Ftp-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Ftp.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Ftp.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Ftp_1_1DirectoryResponse-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Ftp_1_1DirectoryResponse.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Ftp_1_1DirectoryResponse.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Ftp_1_1ListingResponse-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Ftp_1_1ListingResponse.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Ftp_1_1ListingResponse.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Ftp_1_1Response-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Ftp_1_1Response.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Ftp_1_1Response.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1GlResource-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1GlResource.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1GlResource.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1GlResource_1_1TransientContextLock-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1GlResource_1_1TransientContextLock.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1GlResource_1_1TransientContextLock.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Glyph-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Glyph.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Http-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Http.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Http.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Http_1_1Request-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Http_1_1Request.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Http_1_1Response-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Http_1_1Response.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Image-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Image.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1InputSoundFile-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1InputSoundFile.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1InputSoundFile.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1InputStream-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1InputStream.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1InputStream.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1IpAddress-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1IpAddress.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Joystick-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Joystick.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Keyboard-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Keyboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Listener-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Listener.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Lock-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Lock.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Lock.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1MemoryInputStream-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1MemoryInputStream.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1MemoryInputStream.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Mouse-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Mouse.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Music-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Music.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Music.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Mutex-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Mutex.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Mutex.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1NonCopyable-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1NonCopyable.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1NonCopyable.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1OutputSoundFile-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1OutputSoundFile.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1OutputSoundFile.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Packet-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Packet.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Rect-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Rect.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1RectangleShape-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1RectangleShape.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1RectangleShape.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1RenderStates-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1RenderStates.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1RenderTarget-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1RenderTarget.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1RenderTarget.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1RenderTexture-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1RenderTexture.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1RenderTexture.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1RenderWindow-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1RenderWindow.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1RenderWindow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Sensor-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Sensor.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Shader-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Shader.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Shader.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Shape-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Shape.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Shape.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Socket-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Socket.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Socket.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SocketSelector-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SocketSelector.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Sound-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Sound.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Sound.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SoundBuffer-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SoundBuffer.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SoundBuffer.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SoundBufferRecorder-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SoundBufferRecorder.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SoundBufferRecorder.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SoundFileFactory-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SoundFileFactory.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SoundFileReader-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SoundFileReader.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SoundFileWriter-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SoundFileWriter.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SoundRecorder-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SoundRecorder.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SoundRecorder.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SoundSource-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SoundSource.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SoundSource.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SoundStream-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SoundStream.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SoundStream.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Sprite-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Sprite.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Sprite.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1String-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1String.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1TcpListener-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1TcpListener.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1TcpListener.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1TcpSocket-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1TcpSocket.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1TcpSocket.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Text-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Text.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Text.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Texture-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Texture.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Texture.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Thread-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Thread.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Thread.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1ThreadLocal-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1ThreadLocal.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1ThreadLocal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1ThreadLocalPtr-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1ThreadLocalPtr.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1ThreadLocalPtr.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Time-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Time.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Touch-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Touch.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Transform-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Transform.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Transformable-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Transformable.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Transformable.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1UdpSocket-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1UdpSocket.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1UdpSocket.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Utf.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Utf_3_0116_01_4-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Utf_3_0116_01_4.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Utf_3_0132_01_4-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Utf_3_0132_01_4.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Utf_3_018_01_4-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Utf_3_018_01_4.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Vector2-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Vector2.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Vector3-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Vector3.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Vertex-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Vertex.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1VertexArray-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1VertexArray.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1VertexArray.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1VideoMode-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1VideoMode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1View-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1View.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Window-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Window.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Window.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/closed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/deprecated.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/dir_5cf786e58cbf7297a26339ae6e44357c.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/dir_83d50c0b1f1eceb6f182949162e90861.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/dir_89e9fb32471ae291b179a889144513db.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/dir_c0a853e81d6f1c1f0a3eb7a27dc24256.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/dir_d44c64559bbebec7f509842c48db8b23.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/dir_dd49ddb3ba8035e4a328f8c5f31cda7e.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/dir_e68e8157741866f444e17edd764ebbae.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/dir_e71ec51a9abd604c65f6abb639f6ea75.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/doc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/doxygen.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/doxygen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/dynsections.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/files.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/folderclosed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/folderopen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_0x7e.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_b.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_c.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_d.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_e.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_enum.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval_b.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval_c.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval_d.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval_e.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval_f.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval_g.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval_h.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval_i.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval_j.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval_k.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval_l.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval_m.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval_n.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval_o.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval_p.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval_q.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval_r.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval_s.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval_t.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval_u.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval_v.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval_w.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval_x.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval_y.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval_z.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_f.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_func.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_func_0x7e.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_func_b.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_func_c.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_func_d.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_func_e.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_func_f.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_func_g.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_func_h.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_func_i.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_func_k.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_func_l.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_func_m.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_func_n.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_func_o.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_func_p.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_func_r.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_func_s.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_func_t.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_func_u.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_func_v.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_func_w.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_func_z.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_g.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_h.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_i.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_j.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_k.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_l.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_m.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_n.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_o.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_p.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_q.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_r.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_rela.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_s.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_t.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_type.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_u.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_v.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_vars.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_w.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_x.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_y.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_z.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/group__audio.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/group__graphics.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/group__network.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/group__system.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/group__window.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/hierarchy.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/mainpage_8hpp_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/menu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/menudata.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/modules.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/namespacemembers.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/namespacemembers_type.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/namespaces.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/namespacesf_1_1Glsl.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/nav_f.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/nav_g.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/nav_h.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/open.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/pages.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/splitbar.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1BlendMode-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1BlendMode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1ContextSettings-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1ContextSettings.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1JoystickButtonEvent-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1JoystickButtonEvent.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1JoystickConnectEvent-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1JoystickConnectEvent.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1JoystickMoveEvent-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1JoystickMoveEvent.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1KeyEvent-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1KeyEvent.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1MouseButtonEvent-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1MouseButtonEvent.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1MouseMoveEvent-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1MouseMoveEvent.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1MouseWheelEvent-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1MouseWheelEvent.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1MouseWheelScrollEvent-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1MouseWheelScrollEvent.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1SensorEvent-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1SensorEvent.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1SizeEvent-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1SizeEvent.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1TextEvent-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1TextEvent.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1TouchEvent-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1TouchEvent.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Font_1_1Info-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Font_1_1Info.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Joystick_1_1Identification-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Joystick_1_1Identification.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Shader_1_1CurrentTextureType.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1SoundFileReader_1_1Info-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1SoundFileReader_1_1Info.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1SoundStream_1_1Chunk-members.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1SoundStream_1_1Chunk.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/sync_off.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/sync_on.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/tab_a.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/tab_b.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/tab_h.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/tab_s.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/doc/html/tabs.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/cocoa/cocoa.app/Contents/Info.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/cocoa/cocoa.app/Contents/MacOS/cocoa" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/cocoa/cocoa.app/Contents/Resources/Credits.rtf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/cocoa/cocoa.app/Contents/Resources/MainMenu.nib" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/cocoa/cocoa.app/Contents/Resources/blue.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/cocoa/cocoa.app/Contents/Resources/green.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/cocoa/cocoa.app/Contents/Resources/icon.icns" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/cocoa/cocoa.app/Contents/Resources/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/cocoa/cocoa.app/Contents/Resources/red.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/cocoa/cocoa.app/Contents/Resources/sansation.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/ftp/Ftp.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/ftp/ftp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/opengl/OpenGL.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/opengl/opengl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/opengl/resources/background.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/opengl/resources/sansation.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/opengl/resources/texture.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/pong/Pong.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/pong/pong" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/pong/resources/ball.wav" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/pong/resources/sansation.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/shader/Effect.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/shader/Shader.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/shader/resources/background.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/shader/resources/billboard.frag" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/shader/resources/billboard.geom" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/shader/resources/billboard.vert" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/shader/resources/blink.frag" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/shader/resources/blur.frag" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/shader/resources/devices.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/shader/resources/edge.frag" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/shader/resources/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/shader/resources/pixelate.frag" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/shader/resources/sansation.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/shader/resources/sfml.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/shader/resources/storm.vert" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/shader/resources/text-background.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/shader/resources/wave.vert" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/shader/shader" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/sockets/Sockets.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/sockets/TCP.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/sockets/UDP.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/sockets/sockets" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/sound-capture/SoundCapture.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/sound-capture/sound-capture" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/sound/Sound.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/sound/resources/canary.wav" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/sound/resources/ding.flac" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/sound/resources/orchestral.ogg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/sound/sound" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/voip/Client.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/voip/Server.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/voip/VoIP.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/voip/voip" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/window/Window.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/examples/window/window" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/FLAC.framework/FLAC" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/FLAC.framework/Resources" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/FLAC.framework/Versions/A/FLAC" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/FLAC.framework/Versions/A/Resources/Info.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/FLAC.framework/Versions/Current" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/OpenAL.framework/OpenAL" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/OpenAL.framework/Resources" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/OpenAL.framework/Versions/A/OpenAL" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/OpenAL.framework/Versions/A/Resources/Info.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/OpenAL.framework/Versions/Current" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/freetype.framework/Resources" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/freetype.framework/Versions/A/Resources/Info.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/freetype.framework/Versions/A/freetype" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/freetype.framework/Versions/Current" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/freetype.framework/freetype" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/ogg.framework/Resources" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/ogg.framework/Versions/A/Resources/Info.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/ogg.framework/Versions/A/ogg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/ogg.framework/Versions/Current" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/ogg.framework/ogg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/vorbis.framework/Resources" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/vorbis.framework/Versions/A/Resources/Info.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/vorbis.framework/Versions/A/vorbis" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/vorbis.framework/Versions/Current" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/vorbis.framework/vorbis" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/vorbisenc.framework/Resources" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/vorbisenc.framework/Versions/A/Resources/Info.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/vorbisenc.framework/Versions/A/vorbisenc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/vorbisenc.framework/Versions/Current" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/vorbisenc.framework/vorbisenc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/vorbisfile.framework/Resources" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/vorbisfile.framework/Versions/A/Resources/Info.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/vorbisfile.framework/Versions/A/vorbisfile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/vorbisfile.framework/Versions/Current" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/extlibs/vorbisfile.framework/vorbisfile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Audio.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Audio/AlResource.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Audio/Export.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Audio/InputSoundFile.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Audio/Listener.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Audio/Music.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Audio/OutputSoundFile.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Audio/Sound.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Audio/SoundBuffer.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Audio/SoundBufferRecorder.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Audio/SoundFileFactory.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Audio/SoundFileFactory.inl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Audio/SoundFileReader.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Audio/SoundFileWriter.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Audio/SoundRecorder.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Audio/SoundSource.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Audio/SoundStream.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Config.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/BlendMode.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/CircleShape.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/Color.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/ConvexShape.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/Drawable.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/Export.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/Font.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/Glsl.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/Glsl.inl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/Glyph.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/Image.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/PrimitiveType.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/Rect.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/Rect.inl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/RectangleShape.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/RenderStates.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/RenderTarget.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/RenderTexture.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/RenderWindow.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/Shader.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/Shape.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/Sprite.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/Text.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/Texture.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/Transform.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/Transformable.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/Vertex.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/VertexArray.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Graphics/View.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Main.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Network.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Network/Export.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Network/Ftp.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Network/Http.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Network/IpAddress.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Network/Packet.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Network/Socket.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Network/SocketHandle.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Network/SocketSelector.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Network/TcpListener.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Network/TcpSocket.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Network/UdpSocket.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/OpenGL.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/System.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/System/Clock.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/System/Err.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/System/Export.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/System/FileInputStream.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/System/InputStream.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/System/Lock.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/System/MemoryInputStream.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/System/Mutex.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/System/NativeActivity.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/System/NonCopyable.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/System/Sleep.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/System/String.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/System/String.inl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/System/Thread.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/System/Thread.inl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/System/ThreadLocal.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/System/ThreadLocalPtr.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/System/ThreadLocalPtr.inl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/System/Time.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/System/Utf.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/System/Utf.inl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/System/Vector2.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/System/Vector2.inl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/System/Vector3.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/System/Vector3.inl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Window.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Window/Context.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Window/ContextSettings.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Window/Event.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Window/Export.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Window/GlResource.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Window/Joystick.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Window/Keyboard.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Window/Mouse.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Window/Sensor.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Window/Touch.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Window/VideoMode.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Window/Window.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Window/WindowHandle.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/include/SFML/Window/WindowStyle.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/lib/libsfml-audio.2.4.2.dylib" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/lib/libsfml-audio.2.4.dylib" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/lib/libsfml-audio.dylib" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/lib/libsfml-graphics.2.4.2.dylib" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/lib/libsfml-graphics.2.4.dylib" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/lib/libsfml-graphics.dylib" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/lib/libsfml-network.2.4.2.dylib" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/lib/libsfml-network.2.4.dylib" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/lib/libsfml-network.dylib" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/lib/libsfml-system.2.4.2.dylib" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/lib/libsfml-system.2.4.dylib" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/lib/libsfml-system.dylib" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/lib/libsfml-window.2.4.2.dylib" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/lib/libsfml-window.2.4.dylib" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/lib/libsfml-window.dylib" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/license.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/readme.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/templates/SFML/SFML App.xctemplate/ResourcePath.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/templates/SFML/SFML App.xctemplate/ResourcePath.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/templates/SFML/SFML App.xctemplate/TemplateIcon.icns" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/templates/SFML/SFML App.xctemplate/TemplateInfo.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/templates/SFML/SFML App.xctemplate/cute_image.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/templates/SFML/SFML App.xctemplate/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/templates/SFML/SFML App.xctemplate/main.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/templates/SFML/SFML App.xctemplate/nice_music.ogg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/templates/SFML/SFML App.xctemplate/sansation.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/templates/SFML/SFML Base.xctemplate/TemplateInfo.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/templates/SFML/SFML Bundle.xctemplate/TemplateInfo.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/templates/SFML/SFML CLT.xctemplate/TemplateIcon.icns" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/templates/SFML/SFML CLT.xctemplate/TemplateInfo.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/templates/SFML/SFML CLT.xctemplate/cute_image.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/templates/SFML/SFML CLT.xctemplate/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/templates/SFML/SFML CLT.xctemplate/main.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/templates/SFML/SFML CLT.xctemplate/nice_music.ogg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/templates/SFML/SFML CLT.xctemplate/sansation.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/templates/SFML/SFML Compiler.xctemplate/TemplateInfo.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SFML/templates/SFML/SFML Linker.xctemplate/TemplateInfo.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/TileMap.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/TileMap.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/arial.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/map/desert.tmx" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/map/desert.tsx" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/map/tmw_desert_spacing.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sprites/player.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/CMakeLists.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/cmake/modules/FindTMXLITE.cmake" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/documentation/Doxyfile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/include/tmxlite/Config.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/include/tmxlite/FreeFuncs.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/include/tmxlite/ImageLayer.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/include/tmxlite/Layer.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/include/tmxlite/Map.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/include/tmxlite/Object.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/include/tmxlite/ObjectGroup.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/include/tmxlite/Property.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/include/tmxlite/TileLayer.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/include/tmxlite/Tileset.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/include/tmxlite/Types.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/include/tmxlite/Types.inl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/include/tmxlite/detail/Android.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/include/tmxlite/detail/Log.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/src/CMakeLists.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/src/FreeFuncs.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/src/ImageLayer.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/src/Map.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/src/Object.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/src/ObjectGroup.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/src/Property.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/src/TileLayer.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/src/Tileset.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/src/detail/pugiconfig.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/src/detail/pugixml.LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/src/detail/pugixml.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/src/detail/pugixml.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/src/miniz.c" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/src/miniz.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/tmxlite.vcxproj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmxlite/tmxlite.vcxproj.filters" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PlayableGameState.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PlayableGameState.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iterator" pinned="false" current-in-tab="false">
+        <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iterator">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="1518" column="0" lean-forward="false" selection-start-line="1518" selection-start-column="0" selection-end-line="1518" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MobileUnit.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MobileUnit.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+              <folding>
+                <element signature="e#45#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MobileUnit.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MobileUnit.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameEngine.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GameEngine.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="e#45#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayableGameState.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PlayableGameState.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TileMap.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TileMap.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="47" column="57" lean-forward="false" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Player.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Player.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-412">
+              <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>resourcePath()</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TileMap.h" />
+        <option value="$PROJECT_DIR$/TileMap.cpp" />
+        <option value="$PROJECT_DIR$/AbstractUnit.cpp" />
+        <option value="$PROJECT_DIR$/MobileUnit.cpp" />
+        <option value="$PROJECT_DIR$/OverworldGameState.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/AbstractGameState.h" />
+        <option value="$PROJECT_DIR$/PlayableGameState.cpp" />
+        <option value="$PROJECT_DIR$/AbstractUnit.h" />
+        <option value="$PROJECT_DIR$/GameEngine.h" />
+        <option value="$PROJECT_DIR$/PlayableGameState.h" />
+        <option value="$PROJECT_DIR$/Player.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/GameEngine.cpp" />
+        <option value="$PROJECT_DIR$/MobileUnit.h" />
+        <option value="$PROJECT_DIR$/Player.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="948" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="2DGameDemo" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="2DGameDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.2DGameDemo">
+    <configuration name="2DGameDemo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="2DGameDemo" TARGET_NAME="2DGameDemo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="2DGameDemo" RUN_TARGET_NAME="2DGameDemo">
+      <envs />
+    </configuration>
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="2DGameDemo" RUN_TARGET_NAME="2DGameDemo" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.2DGameDemo" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88294c3c-d62a-480b-b75a-f86cae3590bf" name="Default" comment="" />
+      <created>1518487761861</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1518487761861</updated>
+      <workItem from="1518487763771" duration="2766000" />
+      <workItem from="1518491548118" duration="5555000" />
+      <workItem from="1518511437302" duration="1085000" />
+      <workItem from="1518575332175" duration="17324000" />
+      <workItem from="1518752391111" duration="7661000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="34391000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="945" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2279496" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="26" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>x==11 &amp;&amp; y==5</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>x==11, y==5</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="62" lean-forward="false" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="96" column="55" lean-forward="true" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractUnit.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MobileUnit.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="38" lean-forward="false" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+          <folding>
+            <element signature="e#45#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MobileUnit.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractGameState.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Player.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractUnit.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TileMap.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="79" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Player.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="36" lean-forward="false" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2370">
+          <caret line="158" column="16" lean-forward="false" selection-start-line="158" selection-start-column="16" selection-end-line="158" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/SFML.framework/Headers/Graphics/Rect.inl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="75" column="26" lean-forward="false" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1665">
+          <caret line="111" column="41" lean-forward="false" selection-start-line="111" selection-start-column="41" selection-end-line="111" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="67" lean-forward="false" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/SFML.framework/Headers/Graphics/Rect.inl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="75" column="26" lean-forward="false" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmxlite/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SFML/templates/SFML/SFML App.xctemplate/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmxlite/src/miniz.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmxlite/src/miniz.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1425">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmxlite/include/tmxlite/TileLayer.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmxlite/src/Tileset.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmxlite/src/Map.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1704">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmxlite/AbstractUnit.cpp" />
+    <entry file="file://$PROJECT_DIR$/tmxlite/AbstractUnit.h" />
+    <entry file="file:///Library/Frameworks/SFML.framework/Headers/Graphics/Drawable.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="68" column="17" lean-forward="false" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TileMap.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OverworldGameState.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OverworldGameState.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="62" lean-forward="false" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractGameState.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractUnit.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractGameState.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#131#159#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractUnit.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameEngine.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#117#134#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlayableGameState.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameEngine.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#45#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iterator">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="1518" column="0" lean-forward="false" selection-start-line="1518" selection-start-column="0" selection-end-line="1518" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TileMap.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="47" column="57" lean-forward="false" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Player.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MobileUnit.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding>
+            <element signature="e#45#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MobileUnit.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlayableGameState.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Player.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-412">
+          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

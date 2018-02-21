@@ -15,6 +15,7 @@ public:
 
 private:
     AbstractGameState::UPtr mCurrentState;
+    sf::Time mRefreshPeriod;
 };
 
 

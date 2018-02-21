@@ -11,8 +11,8 @@ private:
 
 public:
     Player();
-    void handleEvent(const sf::Event& event);
-
+    virtual void handleEvent(const sf::Event& event);
+    virtual void updateState(const sf::Time& delta);
 
 };
 

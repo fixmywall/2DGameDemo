@@ -10,8 +10,9 @@ class MobileUnit : public AbstractUnit {
 protected:
     const double PI = 3.141592653589;
     double mMaxSpeed;           // max speed (pixels/sec)
-    double mCurrentSpeed;       // current speed (pixels/sec)
-    int mMovementAngle;         // degrees
+    sf::Vector2i mDirection;     // velocity unit vector
+    double mCurrentSpeed;         // 0 east, 90 north, etc. [deg]
+    bool mMoving;
 
 public:
     MobileUnit();
@@ -20,6 +21,7 @@ public:
     double getAngleRad() const;
     int getAngleDeg() const;
     virtual void updateState(const sf::Time& delta);
+    bool moving() const;
     bool movingUp() const;
     bool movingDown() const;
     bool movingLeft() const;

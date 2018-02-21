@@ -11,45 +11,34 @@ double MobileUnit::getSpeed() const {
 
 // updates position based on speed
 void MobileUnit::updateState(const sf::Time &delta) {
-    // do something!!!
-    double pixDelta = mCurrentSpeed * delta.asSeconds();
+    // calculate new position
+    if (moving()) {
+        double pixDelta = mCurrentSpeed * delta.asSeconds();
 
-    double xDelta = pixDelta * cos(getAngleRad());
-    double yDelta = -pixDelta * sin(getAngleRad());
+        double angleRad = getAngleRad();
+        double xDelta = pixDelta * cos(angleRad);
+        double yDelta = -pixDelta * sin(angleRad);
 
-    mSprite.move(xDelta, yDelta);
+        mSprite.move(xDelta, yDelta);
+    }
 }
 
 double MobileUnit::getAngleRad() const {
-    return mMovementAngle * PI / 180.0;
+    return atan2(mDirection.y, mDirection.x);
 }
 
 int MobileUnit::getAngleDeg() const {
-    return mMovementAngle;
+    return getAngleRad() * 180 / PI;
 }
 
-MobileUnit::MobileUnit() : mMaxSpeed(0), mMovementAngle(0), mCurrentSpeed(0) {
+MobileUnit::MobileUnit() : mMaxSpeed(0), mCurrentSpeed(0) {
 }
 
-MobileUnit::MobileUnit(double speed) : mMaxSpeed(speed), mMovementAngle(0), mCurrentSpeed(0) {
+MobileUnit::MobileUnit(double speed) : mMaxSpeed(speed), mCurrentSpeed(0) {
 }
 
-bool MobileUnit::movingUp() const {
-    return (mMovementAngle % 360 == 90) &&
-            (mCurrentSpeed > 0);
+
+bool MobileUnit::moving() const {
+    return mMoving;
 }
 
-bool MobileUnit::movingDown() const {
-    return (mMovementAngle  % 360 == 270) &&
-           (mCurrentSpeed > 0);
-}
-
-bool MobileUnit::movingLeft() const {
-    return (mMovementAngle  % 360 == 180) &&
-           (mCurrentSpeed > 0);
-}
-
-bool MobileUnit::movingRight() const {
-    return (mMovementAngle  % 360 == 0) &&
-           (mCurrentSpeed > 0);
-}

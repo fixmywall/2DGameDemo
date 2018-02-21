@@ -19,14 +19,16 @@ void GameEngine::run( sf::RenderWindow& window) {
                 return;
             }
 
-            mCurrentState->handleEvent(event);
+            mCurrentState->handleEvent(event);  // handle input
         }
 
         // update state
-        mCurrentState->updateState(clock.getElapsedTime());
-        clock.restart();
+        if (clock.getElapsedTime() >= mRefreshPeriod) {
+            mCurrentState->updateState(clock.getElapsedTime());
+            clock.restart();
+        }
 
-        // draw state
+        // render state
         window.clear();
         window.draw(*mCurrentState);
         window.display();
@@ -39,6 +41,8 @@ GameEngine::GameEngine()
     gs->insertUnit(AbstractUnit::UPtr(new Player()));
 
     setCurrentState(AbstractGameState::UPtr(gs));
+
+    mRefreshPeriod = sf::milliseconds(17);      // 50 hz refresh
 }
 
 void GameEngine::setCurrentState(AbstractGameState::UPtr state) {

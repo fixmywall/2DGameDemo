@@ -17,7 +17,7 @@ public:
     PlayableGameState();
     virtual void handleEvent(const sf::Event& event);
     virtual void updateState(const sf::Time& delta);
-    virtual void draw(sf::RenderTarget& target, sf::RenderStates states) const;
+    virtual void draw(sf::RenderTarget& target, float interp = 0);
     void insertUnit(AbstractUnit::UPtr u);
     void setMap(const TileMap& map);
     void setCamera(Camera::SPtr camera);

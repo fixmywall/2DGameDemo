@@ -4,6 +4,12 @@
 
 #include "AbstractUnit.h"
 
-void AbstractUnit::draw(sf::RenderTarget &target, sf::RenderStates states) const {
-    target.draw(mSprite);
+
+void AbstractUnit::setPosition(double x, double y) {
+    mPos.x = x;
+    mPos.y = y;
+}
+
+void AbstractUnit::setPosition(const sf::Vector2f &pos) {
+    mPos = pos;
 }

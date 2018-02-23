@@ -10,13 +10,13 @@
 class Player : public MobileUnit {
 private:
     Camera::SPtr mCamera;   // camera centered around player
+
 public:
     Player();
     virtual void handleEvent(const sf::Event& event);
     virtual void updateState(const sf::Time& delta);
     void attachCamera(Camera::SPtr camera);
-    virtual void setPosition(double x, double y);
-    virtual void move(double x, double y);
+    virtual void draw(sf::RenderTarget& target, float interp = 0);
 
 };
 

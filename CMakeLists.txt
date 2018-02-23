@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.9)
 project(2DGameDemo)
 
 set(CMAKE_CXX_STANDARD 14)
-set(CMAKE_CXX_FLAGS "-O3")
+#set(CMAKE_CXX_FLAGS "-O3")
 
 aux_source_directory(tmxlite/src TMX_SRC_LIST)
 aux_source_directory(tmxlite/src/detail XML_SRC_LIST)

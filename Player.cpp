@@ -52,7 +52,6 @@ void Player::updateState(const sf::Time& delta) {
         mDirection.x += 1;
     }
 
-
     MobileUnit::updateState(delta);
 }
 
@@ -60,12 +59,8 @@ void Player::attachCamera(Camera::SPtr camera) {
     mCamera = camera;
 }
 
-void Player::setPosition(double x, double y) {
-    mCamera->setCenter(x, y);
-    MobileUnit::setPosition(x, y);
+void Player::draw(sf::RenderTarget &target, float interp) {
+    MobileUnit::draw(target, interp);
+    mCamera->setCenter(mSprite.getPosition());
 }
 
-void Player::move(double x, double y) {
-    MobileUnit::move(x, y);
-    mCamera->setCenter(this->getPosition());
-}

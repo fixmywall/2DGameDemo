@@ -16,10 +16,10 @@ void PlayableGameState::updateState(const sf::Time &delta) {
     }
 }
 
-void PlayableGameState::draw(sf::RenderTarget &target, sf::RenderStates states) const {
+void PlayableGameState::draw(sf::RenderTarget &target, float interp) {
     target.draw(mMap);
     for (int i = 0; i < mUnits.size(); i++) {
-        target.draw(*mUnits[i]);
+        mUnits[i]->draw(target, interp );
     }
 
     // set view centered at camera center
@@ -50,5 +50,6 @@ void PlayableGameState::setMap(const TileMap &map) {
 void PlayableGameState::setCamera(Camera::SPtr camera) {
     mCamera = camera;
 }
+
 
 

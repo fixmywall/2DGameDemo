@@ -54,15 +54,12 @@
 void GameEngine::run( sf::RenderWindow& window) {
     sf::Clock clock;
     sf::Time currentTime = clock.getElapsedTime();
-    sf::Time accumulator = sf::Time::Zero;
+    float accumulator = 0.f;
+    float dt = mRefreshPeriod.asSeconds();
+
 
     // game loop
     while (window.isOpen()) {
-        sf::Time newTime = clock.getElapsedTime();
-        sf::Time frameTime = clock.getElapsedTime() - currentTime;
-        currentTime = newTime;
-        accumulator += frameTime;
-
 
         // handle input
         sf::Event event;
@@ -75,16 +72,19 @@ void GameEngine::run( sf::RenderWindow& window) {
             mCurrentState->handleEvent(event);  // handle input
         }
 
+        accumulator += clock.restart().asSeconds();
+
         // update state
-        while (accumulator >= mRefreshPeriod) {
+        while (accumulator >= dt) {
             mCurrentState->updateState(mRefreshPeriod);
-            accumulator -= mRefreshPeriod;
+            accumulator -= dt;
         }
 
+        float interp = accumulator / dt;
 
         // render state
         window.clear();
-        window.draw(*mCurrentState);
+        mCurrentState->draw(window, interp);
         window.display();
     }
 }
@@ -100,8 +100,6 @@ GameEngine::GameEngine()
 
     Player* p = new Player;
     p->attachCamera(camera);
-    sf::Vector2f position(map.size().x, map.size().y);
-    p->setPosition(position.x, position.y);
 
     gs->insertUnit(AbstractUnit::UPtr(p));
 

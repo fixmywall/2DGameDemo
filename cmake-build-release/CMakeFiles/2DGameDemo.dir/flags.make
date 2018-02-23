@@ -9,7 +9,7 @@ C_DEFINES =
 
 C_INCLUDES = -F/Library/Frameworks -I/Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/include -I/Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/src/detail 
 
-CXX_FLAGS = -O3 -O3 -DNDEBUG   -std=gnu++14
+CXX_FLAGS = -O3 -DNDEBUG   -std=gnu++14
 
 CXX_DEFINES = 
 

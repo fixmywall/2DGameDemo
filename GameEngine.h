@@ -6,6 +6,7 @@
 #define INC_2DGAMEDEMO_GAMEENGINE_H
 #include <vector>
 #include "AbstractGameState.h"
+#include "Camera.h"
 
 class GameEngine {
 public:
@@ -16,6 +17,8 @@ public:
 private:
     AbstractGameState::UPtr mCurrentState;
     sf::Time mRefreshPeriod;
+    Camera::SPtr mCamera;
+
 };
 
 

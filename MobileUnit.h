@@ -21,6 +21,10 @@ public:
     double getAngleRad() const;
     int getAngleDeg() const;
     virtual void updateState(const sf::Time& delta);
+    virtual void setPosition(double x, double y);
+    virtual const sf::Vector2f& getPosition() const;
+    virtual void move(double x, double y);
+
     bool moving() const;
     bool movingUp() const;
     bool movingDown() const;

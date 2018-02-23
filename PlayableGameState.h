@@ -8,6 +8,7 @@
 #include "AbstractGameState.h"
 #include "AbstractUnit.h"
 #include "TileMap.h"
+#include "Camera.h"
 #include <vector>
 #include <memory>
 
@@ -18,11 +19,13 @@ public:
     virtual void updateState(const sf::Time& delta);
     virtual void draw(sf::RenderTarget& target, sf::RenderStates states) const;
     void insertUnit(AbstractUnit::UPtr u);
+    void setMap(const TileMap& map);
+    void setCamera(Camera::SPtr camera);
 
 private:
     std::vector<AbstractUnit::UPtr> mUnits;
     TileMap mMap;
-
+    Camera::SPtr mCamera;
 };
 
 

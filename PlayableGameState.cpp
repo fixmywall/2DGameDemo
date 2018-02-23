@@ -4,7 +4,7 @@
 
 #include "PlayableGameState.h"
 
-void PlayableGameState::handleEvent(const sf::Event &event) {
+void PlayableGameState::handleEvent(const sf::Event& event) {
     for (auto& u: mUnits) {
         u->handleEvent(event);
     }
@@ -22,6 +22,11 @@ void PlayableGameState::draw(sf::RenderTarget &target, sf::RenderStates states) 
         target.draw(*mUnits[i]);
     }
 
+    // set view centered at camera center
+    sf::View centered = target.getView();
+    centered.setCenter(mCamera->center());
+    target.setView(centered);
+
 }
 
 /**
@@ -33,8 +38,17 @@ void PlayableGameState::insertUnit(AbstractUnit::UPtr u) {
 }
 
 /**
- * Default ctor. Loads a default map
+ * Default ctor. Empty state, contains no map nor units
  */
 PlayableGameState::PlayableGameState() {
-    mMap.load("map/desert.tmx");
 }
+
+void PlayableGameState::setMap(const TileMap &map) {
+    mMap = map;
+}
+
+void PlayableGameState::setCamera(Camera::SPtr camera) {
+    mCamera = camera;
+}
+
+

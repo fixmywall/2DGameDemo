@@ -2,11 +2,12 @@ cmake_minimum_required(VERSION 3.9)
 project(2DGameDemo)
 
 set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_FLAGS "-O3")
 
 aux_source_directory(tmxlite/src TMX_SRC_LIST)
 aux_source_directory(tmxlite/src/detail XML_SRC_LIST)
 
-set(SOURCE_FILES main.cpp TileMap.cpp TileMap.h Player.cpp Player.h AbstractUnit.cpp AbstractUnit.h AbstractGameState.cpp AbstractGameState.h MobileUnit.cpp MobileUnit.h PlayableGameState.cpp PlayableGameState.h GameEngine.cpp GameEngine.h)
+set(SOURCE_FILES main.cpp TileMap.cpp TileMap.h Player.cpp Player.h AbstractUnit.cpp AbstractUnit.h AbstractGameState.cpp AbstractGameState.h MobileUnit.cpp MobileUnit.h PlayableGameState.cpp PlayableGameState.h GameEngine.cpp GameEngine.h Camera.cpp Camera.h)
 
 add_executable(2DGameDemo ${SOURCE_FILES} ${TMX_SRC_LIST} ${XML_SRC_LIST})
 

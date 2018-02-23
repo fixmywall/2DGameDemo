@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="2DGameDemo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\map\;CMake Files\sprites\;CMake Files\SFML\;CMake Files\SFML\cmake\;CMake Files\SFML\cmake\Modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2DGameDemo">
+				<Option output="/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release/2DGameDemo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Frameworks/SFML.framework"/>
+					<Add directory="/Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/include"/>
+					<Add directory="/Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/src/detail"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release/Makefile&quot;  VERBOSE=1 2DGameDemo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2DGameDemo/fast">
+				<Option output="/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release/2DGameDemo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Frameworks/SFML.framework"/>
+					<Add directory="/Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/include"/>
+					<Add directory="/Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/src/detail"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release/Makefile&quot;  VERBOSE=1 2DGameDemo/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/AbstractGameState.cpp">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/AbstractGameState.h">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/AbstractUnit.cpp">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/AbstractUnit.h">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/Camera.cpp">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/Camera.h">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/GameEngine.cpp">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/GameEngine.h">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/MobileUnit.cpp">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/MobileUnit.h">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/PlayableGameState.cpp">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/PlayableGameState.h">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/Player.cpp">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/Player.h">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/TileMap.cpp">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/TileMap.h">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/main.cpp">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/src/FreeFuncs.cpp">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/src/ImageLayer.cpp">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/src/Map.cpp">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/src/Object.cpp">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/src/ObjectGroup.cpp">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/src/Property.cpp">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/src/TileLayer.cpp">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/src/Tileset.cpp">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/src/detail/pugixml.cpp">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/src/detail/pugixml.hpp">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/src/miniz.c">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/src/miniz.h">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/arial.ttf">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/map/desert.tsx">
+			<Option virtualFolder="CMake Files\map\"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/map/desert.tmx">
+			<Option virtualFolder="CMake Files\map\"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/map/tmw_desert_spacing.png">
+			<Option virtualFolder="CMake Files\map\"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/sprites/player.png">
+			<Option virtualFolder="CMake Files\sprites\"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/SFML/cmake/Modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\SFML\cmake\Modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -19,7 +19,7 @@ void MobileUnit::updateState(const sf::Time &delta) {
         double xDelta = pixDelta * cos(angleRad);
         double yDelta = -pixDelta * sin(angleRad);
 
-        mSprite.move(xDelta, yDelta);
+        move(xDelta, yDelta);
     }
 }
 
@@ -40,5 +40,17 @@ MobileUnit::MobileUnit(double speed) : mMaxSpeed(speed), mCurrentSpeed(0) {
 
 bool MobileUnit::moving() const {
     return mMoving;
+}
+
+void MobileUnit::setPosition(double x, double y) {
+    mSprite.setPosition(x, y);
+}
+
+void MobileUnit::move(double x, double y) {
+    mSprite.move(x, y);
+}
+
+const sf::Vector2f &MobileUnit::getPosition() const {
+    return mSprite.getPosition();
 }
 

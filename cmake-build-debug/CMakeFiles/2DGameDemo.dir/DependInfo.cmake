@@ -18,6 +18,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/oliveryang/CLionProjects/2DGameDemo/AbstractGameState.cpp" "/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles/2DGameDemo.dir/AbstractGameState.cpp.o"
   "/Users/oliveryang/CLionProjects/2DGameDemo/AbstractUnit.cpp" "/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles/2DGameDemo.dir/AbstractUnit.cpp.o"
+  "/Users/oliveryang/CLionProjects/2DGameDemo/Camera.cpp" "/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles/2DGameDemo.dir/Camera.cpp.o"
   "/Users/oliveryang/CLionProjects/2DGameDemo/GameEngine.cpp" "/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles/2DGameDemo.dir/GameEngine.cpp.o"
   "/Users/oliveryang/CLionProjects/2DGameDemo/MobileUnit.cpp" "/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles/2DGameDemo.dir/MobileUnit.cpp.o"
   "/Users/oliveryang/CLionProjects/2DGameDemo/PlayableGameState.cpp" "/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles/2DGameDemo.dir/PlayableGameState.cpp.o"

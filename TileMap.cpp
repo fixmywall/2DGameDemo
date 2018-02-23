@@ -18,8 +18,8 @@ bool TileMap::load(const std::string &tsPath) {
         return false;
     }
 
-    sf::Vector2f tileSize(map.getTileSize().x, map.getTileSize().y);
-    sf::Vector2f tileCount(map.getTileCount().x, map.getTileCount().y);
+    sf::Vector2f tileSize(map.getTileSize().x, map.getTileSize().y);        // size of single tile in pixels
+    sf::Vector2f tileCount(map.getTileCount().x, map.getTileCount().y);     // size of map [tiles]
 
     const auto& layers = map.getLayers();
     tmx::TileLayer* mainLayer = dynamic_cast<tmx::TileLayer*>(layers[0].get());
@@ -74,6 +74,13 @@ bool TileMap::load(const std::string &tsPath) {
         }
     }
 
+    // on success, set any additional state and then return true
+    mSize.x = tileCount.x * tileSize.x;
+    mSize.y = tileCount.y * tileSize.y;
 
     return true;
+}
+
+sf::Vector2f TileMap::size() const {
+    return mSize;
 }

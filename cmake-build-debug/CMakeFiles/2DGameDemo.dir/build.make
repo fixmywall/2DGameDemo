@@ -249,9 +249,33 @@ CMakeFiles/2DGameDemo.dir/GameEngine.cpp.o.provides: CMakeFiles/2DGameDemo.dir/G
 CMakeFiles/2DGameDemo.dir/GameEngine.cpp.o.provides.build: CMakeFiles/2DGameDemo.dir/GameEngine.cpp.o
 
 
+CMakeFiles/2DGameDemo.dir/Camera.cpp.o: CMakeFiles/2DGameDemo.dir/flags.make
+CMakeFiles/2DGameDemo.dir/Camera.cpp.o: ../Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/2DGameDemo.dir/Camera.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2DGameDemo.dir/Camera.cpp.o -c /Users/oliveryang/CLionProjects/2DGameDemo/Camera.cpp
+
+CMakeFiles/2DGameDemo.dir/Camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2DGameDemo.dir/Camera.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oliveryang/CLionProjects/2DGameDemo/Camera.cpp > CMakeFiles/2DGameDemo.dir/Camera.cpp.i
+
+CMakeFiles/2DGameDemo.dir/Camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2DGameDemo.dir/Camera.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oliveryang/CLionProjects/2DGameDemo/Camera.cpp -o CMakeFiles/2DGameDemo.dir/Camera.cpp.s
+
+CMakeFiles/2DGameDemo.dir/Camera.cpp.o.requires:
+
+.PHONY : CMakeFiles/2DGameDemo.dir/Camera.cpp.o.requires
+
+CMakeFiles/2DGameDemo.dir/Camera.cpp.o.provides: CMakeFiles/2DGameDemo.dir/Camera.cpp.o.requires
+	$(MAKE) -f CMakeFiles/2DGameDemo.dir/build.make CMakeFiles/2DGameDemo.dir/Camera.cpp.o.provides.build
+.PHONY : CMakeFiles/2DGameDemo.dir/Camera.cpp.o.provides
+
+CMakeFiles/2DGameDemo.dir/Camera.cpp.o.provides.build: CMakeFiles/2DGameDemo.dir/Camera.cpp.o
+
+
 CMakeFiles/2DGameDemo.dir/tmxlite/src/FreeFuncs.cpp.o: CMakeFiles/2DGameDemo.dir/flags.make
 CMakeFiles/2DGameDemo.dir/tmxlite/src/FreeFuncs.cpp.o: ../tmxlite/src/FreeFuncs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/2DGameDemo.dir/tmxlite/src/FreeFuncs.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/2DGameDemo.dir/tmxlite/src/FreeFuncs.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2DGameDemo.dir/tmxlite/src/FreeFuncs.cpp.o -c /Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/src/FreeFuncs.cpp
 
 CMakeFiles/2DGameDemo.dir/tmxlite/src/FreeFuncs.cpp.i: cmake_force
@@ -275,7 +299,7 @@ CMakeFiles/2DGameDemo.dir/tmxlite/src/FreeFuncs.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/2DGameDemo.dir/tmxlite/src/ImageLayer.cpp.o: CMakeFiles/2DGameDemo.dir/flags.make
 CMakeFiles/2DGameDemo.dir/tmxlite/src/ImageLayer.cpp.o: ../tmxlite/src/ImageLayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/2DGameDemo.dir/tmxlite/src/ImageLayer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/2DGameDemo.dir/tmxlite/src/ImageLayer.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2DGameDemo.dir/tmxlite/src/ImageLayer.cpp.o -c /Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/src/ImageLayer.cpp
 
 CMakeFiles/2DGameDemo.dir/tmxlite/src/ImageLayer.cpp.i: cmake_force
@@ -299,7 +323,7 @@ CMakeFiles/2DGameDemo.dir/tmxlite/src/ImageLayer.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/2DGameDemo.dir/tmxlite/src/Map.cpp.o: CMakeFiles/2DGameDemo.dir/flags.make
 CMakeFiles/2DGameDemo.dir/tmxlite/src/Map.cpp.o: ../tmxlite/src/Map.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/2DGameDemo.dir/tmxlite/src/Map.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/2DGameDemo.dir/tmxlite/src/Map.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2DGameDemo.dir/tmxlite/src/Map.cpp.o -c /Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/src/Map.cpp
 
 CMakeFiles/2DGameDemo.dir/tmxlite/src/Map.cpp.i: cmake_force
@@ -323,7 +347,7 @@ CMakeFiles/2DGameDemo.dir/tmxlite/src/Map.cpp.o.provides.build: CMakeFiles/2DGam
 
 CMakeFiles/2DGameDemo.dir/tmxlite/src/Object.cpp.o: CMakeFiles/2DGameDemo.dir/flags.make
 CMakeFiles/2DGameDemo.dir/tmxlite/src/Object.cpp.o: ../tmxlite/src/Object.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/2DGameDemo.dir/tmxlite/src/Object.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/2DGameDemo.dir/tmxlite/src/Object.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2DGameDemo.dir/tmxlite/src/Object.cpp.o -c /Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/src/Object.cpp
 
 CMakeFiles/2DGameDemo.dir/tmxlite/src/Object.cpp.i: cmake_force
@@ -347,7 +371,7 @@ CMakeFiles/2DGameDemo.dir/tmxlite/src/Object.cpp.o.provides.build: CMakeFiles/2D
 
 CMakeFiles/2DGameDemo.dir/tmxlite/src/ObjectGroup.cpp.o: CMakeFiles/2DGameDemo.dir/flags.make
 CMakeFiles/2DGameDemo.dir/tmxlite/src/ObjectGroup.cpp.o: ../tmxlite/src/ObjectGroup.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/2DGameDemo.dir/tmxlite/src/ObjectGroup.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/2DGameDemo.dir/tmxlite/src/ObjectGroup.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2DGameDemo.dir/tmxlite/src/ObjectGroup.cpp.o -c /Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/src/ObjectGroup.cpp
 
 CMakeFiles/2DGameDemo.dir/tmxlite/src/ObjectGroup.cpp.i: cmake_force
@@ -371,7 +395,7 @@ CMakeFiles/2DGameDemo.dir/tmxlite/src/ObjectGroup.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/2DGameDemo.dir/tmxlite/src/Property.cpp.o: CMakeFiles/2DGameDemo.dir/flags.make
 CMakeFiles/2DGameDemo.dir/tmxlite/src/Property.cpp.o: ../tmxlite/src/Property.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/2DGameDemo.dir/tmxlite/src/Property.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/2DGameDemo.dir/tmxlite/src/Property.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2DGameDemo.dir/tmxlite/src/Property.cpp.o -c /Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/src/Property.cpp
 
 CMakeFiles/2DGameDemo.dir/tmxlite/src/Property.cpp.i: cmake_force
@@ -395,7 +419,7 @@ CMakeFiles/2DGameDemo.dir/tmxlite/src/Property.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/2DGameDemo.dir/tmxlite/src/TileLayer.cpp.o: CMakeFiles/2DGameDemo.dir/flags.make
 CMakeFiles/2DGameDemo.dir/tmxlite/src/TileLayer.cpp.o: ../tmxlite/src/TileLayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/2DGameDemo.dir/tmxlite/src/TileLayer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/2DGameDemo.dir/tmxlite/src/TileLayer.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2DGameDemo.dir/tmxlite/src/TileLayer.cpp.o -c /Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/src/TileLayer.cpp
 
 CMakeFiles/2DGameDemo.dir/tmxlite/src/TileLayer.cpp.i: cmake_force
@@ -419,7 +443,7 @@ CMakeFiles/2DGameDemo.dir/tmxlite/src/TileLayer.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/2DGameDemo.dir/tmxlite/src/Tileset.cpp.o: CMakeFiles/2DGameDemo.dir/flags.make
 CMakeFiles/2DGameDemo.dir/tmxlite/src/Tileset.cpp.o: ../tmxlite/src/Tileset.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/2DGameDemo.dir/tmxlite/src/Tileset.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/2DGameDemo.dir/tmxlite/src/Tileset.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2DGameDemo.dir/tmxlite/src/Tileset.cpp.o -c /Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/src/Tileset.cpp
 
 CMakeFiles/2DGameDemo.dir/tmxlite/src/Tileset.cpp.i: cmake_force
@@ -443,7 +467,7 @@ CMakeFiles/2DGameDemo.dir/tmxlite/src/Tileset.cpp.o.provides.build: CMakeFiles/2
 
 CMakeFiles/2DGameDemo.dir/tmxlite/src/miniz.c.o: CMakeFiles/2DGameDemo.dir/flags.make
 CMakeFiles/2DGameDemo.dir/tmxlite/src/miniz.c.o: ../tmxlite/src/miniz.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/2DGameDemo.dir/tmxlite/src/miniz.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/2DGameDemo.dir/tmxlite/src/miniz.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/2DGameDemo.dir/tmxlite/src/miniz.c.o   -c /Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/src/miniz.c
 
 CMakeFiles/2DGameDemo.dir/tmxlite/src/miniz.c.i: cmake_force
@@ -467,7 +491,7 @@ CMakeFiles/2DGameDemo.dir/tmxlite/src/miniz.c.o.provides.build: CMakeFiles/2DGam
 
 CMakeFiles/2DGameDemo.dir/tmxlite/src/detail/pugixml.cpp.o: CMakeFiles/2DGameDemo.dir/flags.make
 CMakeFiles/2DGameDemo.dir/tmxlite/src/detail/pugixml.cpp.o: ../tmxlite/src/detail/pugixml.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/2DGameDemo.dir/tmxlite/src/detail/pugixml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/2DGameDemo.dir/tmxlite/src/detail/pugixml.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2DGameDemo.dir/tmxlite/src/detail/pugixml.cpp.o -c /Users/oliveryang/CLionProjects/2DGameDemo/tmxlite/src/detail/pugixml.cpp
 
 CMakeFiles/2DGameDemo.dir/tmxlite/src/detail/pugixml.cpp.i: cmake_force
@@ -499,6 +523,7 @@ CMakeFiles/2DGameDemo.dir/tmxlite/src/detail/pugixml.cpp.o.provides.build: CMake
 "CMakeFiles/2DGameDemo.dir/MobileUnit.cpp.o" \
 "CMakeFiles/2DGameDemo.dir/PlayableGameState.cpp.o" \
 "CMakeFiles/2DGameDemo.dir/GameEngine.cpp.o" \
+"CMakeFiles/2DGameDemo.dir/Camera.cpp.o" \
 "CMakeFiles/2DGameDemo.dir/tmxlite/src/FreeFuncs.cpp.o" \
 "CMakeFiles/2DGameDemo.dir/tmxlite/src/ImageLayer.cpp.o" \
 "CMakeFiles/2DGameDemo.dir/tmxlite/src/Map.cpp.o" \
@@ -521,6 +546,7 @@ CMakeFiles/2DGameDemo.dir/tmxlite/src/detail/pugixml.cpp.o.provides.build: CMake
 2DGameDemo: CMakeFiles/2DGameDemo.dir/MobileUnit.cpp.o
 2DGameDemo: CMakeFiles/2DGameDemo.dir/PlayableGameState.cpp.o
 2DGameDemo: CMakeFiles/2DGameDemo.dir/GameEngine.cpp.o
+2DGameDemo: CMakeFiles/2DGameDemo.dir/Camera.cpp.o
 2DGameDemo: CMakeFiles/2DGameDemo.dir/tmxlite/src/FreeFuncs.cpp.o
 2DGameDemo: CMakeFiles/2DGameDemo.dir/tmxlite/src/ImageLayer.cpp.o
 2DGameDemo: CMakeFiles/2DGameDemo.dir/tmxlite/src/Map.cpp.o
@@ -533,7 +559,7 @@ CMakeFiles/2DGameDemo.dir/tmxlite/src/detail/pugixml.cpp.o.provides.build: CMake
 2DGameDemo: CMakeFiles/2DGameDemo.dir/tmxlite/src/detail/pugixml.cpp.o
 2DGameDemo: CMakeFiles/2DGameDemo.dir/build.make
 2DGameDemo: CMakeFiles/2DGameDemo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable 2DGameDemo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/oliveryang/CLionProjects/2DGameDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable 2DGameDemo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/2DGameDemo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -549,6 +575,7 @@ CMakeFiles/2DGameDemo.dir/requires: CMakeFiles/2DGameDemo.dir/AbstractGameState.
 CMakeFiles/2DGameDemo.dir/requires: CMakeFiles/2DGameDemo.dir/MobileUnit.cpp.o.requires
 CMakeFiles/2DGameDemo.dir/requires: CMakeFiles/2DGameDemo.dir/PlayableGameState.cpp.o.requires
 CMakeFiles/2DGameDemo.dir/requires: CMakeFiles/2DGameDemo.dir/GameEngine.cpp.o.requires
+CMakeFiles/2DGameDemo.dir/requires: CMakeFiles/2DGameDemo.dir/Camera.cpp.o.requires
 CMakeFiles/2DGameDemo.dir/requires: CMakeFiles/2DGameDemo.dir/tmxlite/src/FreeFuncs.cpp.o.requires
 CMakeFiles/2DGameDemo.dir/requires: CMakeFiles/2DGameDemo.dir/tmxlite/src/ImageLayer.cpp.o.requires
 CMakeFiles/2DGameDemo.dir/requires: CMakeFiles/2DGameDemo.dir/tmxlite/src/Map.cpp.o.requires

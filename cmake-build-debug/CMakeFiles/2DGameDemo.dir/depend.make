@@ -9,8 +9,12 @@ CMakeFiles/2DGameDemo.dir/AbstractGameState.cpp.o: ../AbstractGameState.h
 CMakeFiles/2DGameDemo.dir/AbstractUnit.cpp.o: ../AbstractUnit.cpp
 CMakeFiles/2DGameDemo.dir/AbstractUnit.cpp.o: ../AbstractUnit.h
 
+CMakeFiles/2DGameDemo.dir/Camera.cpp.o: ../Camera.cpp
+CMakeFiles/2DGameDemo.dir/Camera.cpp.o: ../Camera.h
+
 CMakeFiles/2DGameDemo.dir/GameEngine.cpp.o: ../AbstractGameState.h
 CMakeFiles/2DGameDemo.dir/GameEngine.cpp.o: ../AbstractUnit.h
+CMakeFiles/2DGameDemo.dir/GameEngine.cpp.o: ../Camera.h
 CMakeFiles/2DGameDemo.dir/GameEngine.cpp.o: ../GameEngine.cpp
 CMakeFiles/2DGameDemo.dir/GameEngine.cpp.o: ../GameEngine.h
 CMakeFiles/2DGameDemo.dir/GameEngine.cpp.o: ../MobileUnit.h
@@ -24,11 +28,13 @@ CMakeFiles/2DGameDemo.dir/MobileUnit.cpp.o: ../MobileUnit.h
 
 CMakeFiles/2DGameDemo.dir/PlayableGameState.cpp.o: ../AbstractGameState.h
 CMakeFiles/2DGameDemo.dir/PlayableGameState.cpp.o: ../AbstractUnit.h
+CMakeFiles/2DGameDemo.dir/PlayableGameState.cpp.o: ../Camera.h
 CMakeFiles/2DGameDemo.dir/PlayableGameState.cpp.o: ../PlayableGameState.cpp
 CMakeFiles/2DGameDemo.dir/PlayableGameState.cpp.o: ../PlayableGameState.h
 CMakeFiles/2DGameDemo.dir/PlayableGameState.cpp.o: ../TileMap.h
 
 CMakeFiles/2DGameDemo.dir/Player.cpp.o: ../AbstractUnit.h
+CMakeFiles/2DGameDemo.dir/Player.cpp.o: ../Camera.h
 CMakeFiles/2DGameDemo.dir/Player.cpp.o: ../MobileUnit.h
 CMakeFiles/2DGameDemo.dir/Player.cpp.o: ../Player.cpp
 CMakeFiles/2DGameDemo.dir/Player.cpp.o: ../Player.h

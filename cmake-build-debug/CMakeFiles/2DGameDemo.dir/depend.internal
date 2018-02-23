@@ -9,9 +9,13 @@ CMakeFiles/2DGameDemo.dir/AbstractGameState.cpp.o
 CMakeFiles/2DGameDemo.dir/AbstractUnit.cpp.o
  /Users/oliveryang/CLionProjects/2DGameDemo/AbstractUnit.cpp
  /Users/oliveryang/CLionProjects/2DGameDemo/AbstractUnit.h
+CMakeFiles/2DGameDemo.dir/Camera.cpp.o
+ /Users/oliveryang/CLionProjects/2DGameDemo/Camera.cpp
+ /Users/oliveryang/CLionProjects/2DGameDemo/Camera.h
 CMakeFiles/2DGameDemo.dir/GameEngine.cpp.o
  /Users/oliveryang/CLionProjects/2DGameDemo/AbstractGameState.h
  /Users/oliveryang/CLionProjects/2DGameDemo/AbstractUnit.h
+ /Users/oliveryang/CLionProjects/2DGameDemo/Camera.h
  /Users/oliveryang/CLionProjects/2DGameDemo/GameEngine.cpp
  /Users/oliveryang/CLionProjects/2DGameDemo/GameEngine.h
  /Users/oliveryang/CLionProjects/2DGameDemo/MobileUnit.h
@@ -25,11 +29,13 @@ CMakeFiles/2DGameDemo.dir/MobileUnit.cpp.o
 CMakeFiles/2DGameDemo.dir/PlayableGameState.cpp.o
  /Users/oliveryang/CLionProjects/2DGameDemo/AbstractGameState.h
  /Users/oliveryang/CLionProjects/2DGameDemo/AbstractUnit.h
+ /Users/oliveryang/CLionProjects/2DGameDemo/Camera.h
  /Users/oliveryang/CLionProjects/2DGameDemo/PlayableGameState.cpp
  /Users/oliveryang/CLionProjects/2DGameDemo/PlayableGameState.h
  /Users/oliveryang/CLionProjects/2DGameDemo/TileMap.h
 CMakeFiles/2DGameDemo.dir/Player.cpp.o
  /Users/oliveryang/CLionProjects/2DGameDemo/AbstractUnit.h
+ /Users/oliveryang/CLionProjects/2DGameDemo/Camera.h
  /Users/oliveryang/CLionProjects/2DGameDemo/MobileUnit.h
  /Users/oliveryang/CLionProjects/2DGameDemo/Player.cpp
  /Users/oliveryang/CLionProjects/2DGameDemo/Player.h

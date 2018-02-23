@@ -98,6 +98,12 @@
 		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/AbstractUnit.h">
 			<Option target="2DGameDemo"/>
 		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/Camera.cpp">
+			<Option target="2DGameDemo"/>
+		</Unit>
+		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/Camera.h">
+			<Option target="2DGameDemo"/>
+		</Unit>
 		<Unit filename="/Users/oliveryang/CLionProjects/2DGameDemo/GameEngine.cpp">
 			<Option target="2DGameDemo"/>
 		</Unit>

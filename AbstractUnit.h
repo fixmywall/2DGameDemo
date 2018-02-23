@@ -15,9 +15,11 @@ public:
     virtual void updateState(const sf::Time& delta) = 0;
     virtual void handleEvent(const sf::Event& event) = 0;
     virtual void draw(sf::RenderTarget& target, sf::RenderStates states) const;
+    virtual void setPosition(double x, double y) = 0;
+    virtual const sf::Vector2f& getPosition() const = 0;
+    virtual void move(double x, double y) = 0;
 
 protected:
-    sf::Vector2f mMapPosition;  // position within map
     sf::Sprite mSprite;
 };
 
